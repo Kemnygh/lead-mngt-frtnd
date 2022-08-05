@@ -1,7 +1,7 @@
 {
   "name": "lead-management-frontend",
   "version": "0.1.0",
-  "homepage": "https://Kemnygh.github.io/lead-management-frontend",
+  "homepage": "https://Kemnygh.github.io/lead-mngt-frtnd",
   "private": true,
   "engines": {
     "node": "14.18.1",
