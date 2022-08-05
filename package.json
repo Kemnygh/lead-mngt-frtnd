@@ -1,6 +1,7 @@
 {
   "name": "lead-management-frontend",
   "version": "0.1.0",
+  "homepage": "https://Kemnygh.github.io/lead-management-frontend",
   "private": true,
   "engines": {
     "node": "14.18.1",
@@ -36,11 +37,12 @@
     "webpack-dev-middleware": "^5.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postinstall": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +65,7 @@
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
+    "gh-pages": "^4.0.0",
     "react-hot-loader": "^4.13.0"
   }
 }
